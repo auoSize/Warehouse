@@ -1,0 +1,31 @@
+.public_border_radius{
+  height: 6px;
+  position: absolute;
+  bottom: 15%;
+  z-index: 44;
+  left: 50%;
+}
+.public_border_radius > li{
+  width: 6px;
+  margin: 0 5px;
+  border-radius: 6px;
+  background: #fff;
+  height: 6px;
+  float: left;
+}
+.public_border_radius > li.active{
+  background: #f24501;
+}
+
+
+.public_up{
+  width: 27px;
+  height: 27px;
+  background: url("../../static/image/product/up.png") no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  margin-left: -13.5px;
+}
